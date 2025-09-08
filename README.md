@@ -20,7 +20,9 @@
 
 
 # Tecnologias Usadas: 
-- Um serviço de host de websites
+- Angular (HTML)
+- AWS
+- Javascript
 
 # Integrantes:
 - Backend e Frontend: Caroline Espanha Simão (@mega-swampert)
