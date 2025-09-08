@@ -5,9 +5,24 @@
 # Principais Dores:
 - No mercado atual, não há um site focado em availações de jogos vindas de usuários. Existem multiplos sites focados em avaliações de críticos, tendo as avaliações de usuários como uma função secundária. Nosso sistema planeja ter as vozes dos consumidores em destaque.
 
-# Modelo de Negócio:
-- Site desktop e mobile
-- Aplicativo para dispositivos mobile
+# Modelo de Negócios:
+- Gerar engajamento das 
+comunidades “Gamers, 
+fornecendo um local intuítivo e 
+atrativo para criar reviews e 
+pesquisar opiniões. Será feito 
+via web (site), criando uma 
+rede social segura e incluisiva 
+para todos que gostam de jogar 
+video-games, e nossas fontes 
+de renda serão principalmente 3 
+delas, a versão pro do site, Anúncios
+dentro do site e venda das 
+informações coletadas das 
+reviews para empresas de jogos,
+facilitando a pesquisa de 
+mercado delas.
+
 
 # Requisitos de Alto Nível:
 - O sistema deve proporcionar uma forma de comunicação segura entre usuários, seguindo as regras da LGPD;
@@ -27,3 +42,5 @@
 # Integrantes:
 - Backend e Frontend: Caroline Espanha Simão (@mega-swampert)
 - Banco de Dados: Matheus Henrique Roque Camargo (@manga135), Gabriel dos Santos Oliveira (@NerialSumber)
+- Vinícius Holtz (@vHOLTZv)
+- Murilo Garbo (@garbomurilo)
