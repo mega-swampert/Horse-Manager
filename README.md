@@ -23,5 +23,5 @@
 - Um serviço de host de websites
 
 # Integrantes:
-- Backend: Caroline Espanha Simão (@mega-swampert)
+- Backend e Frontend: Caroline Espanha Simão (@mega-swampert)
 - Banco de Dados: Matheus Henrique Roque Camargo (@manga135), Gabriel dos Santos Oliveira (@NerialSumber)
