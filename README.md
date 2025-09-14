@@ -38,7 +38,6 @@ mercado delas.
 - Angular (HTML)
 - AWS
 - Javascript
-- React Native
 
 # Integrantes:
 - Desenvolvimento Mobile: Vinicius Holtz (@vHOLTZv) 
