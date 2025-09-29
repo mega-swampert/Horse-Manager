@@ -1,46 +1,42 @@
-# Gamerbox
+# K9 Manager
 
-"Um site/aplicativo que procura dar um espaço aos jogadores para avaliarem, organizarem e checarem informações sobre seus jogos favoritos de forma simples e divertida, com rankings de amigos e customizações de avatar."
+Um sistema web que centraliza e organiza todas as informações do canil da polícia, permitindo gestão eficiente de histórico médico, treinamentos, rondas, alimentação e registros administrativos, substituindo todos os processos em papel.
 
 # Principais Dores:
-- No mercado atual, não há um site focado em availações de jogos vindas de usuários. Existem multiplos sites focados em avaliações de críticos, tendo as avaliações de usuários como uma função secundária. Nosso sistema planeja ter as vozes dos consumidores em destaque.
+- Atualmente, o controle do canil é feito em papel e de forma descentralizada, o que gera perda de informações, dificuldades de consulta e possui diversas oportunidades para erros.  
+- A falta de um sistema único dificulta a comunicação entre todas as partes envolvidas, resultando em atrasos nas tomadas de decisão.  
+- Não existe rastreabilidade clara sobre saúde, treinamentos e rondas de cada animal, prejudicando o acompanhamento individualizado. 
 
 # Modelo de Negócios:
-- Gerar engajamento das 
-comunidades “Gamers, 
-fornecendo um local intuítivo e 
-atrativo para criar reviews e 
-pesquisar opiniões. Será feito 
-via web (site), criando uma 
-rede social segura e incluisiva 
-para todos que gostam de jogar 
-video-games, e nossas fontes 
-de renda serão principalmente 3 
-delas, a versão pro do site, Anúncios
-dentro do site e venda das 
-informações coletadas das 
-reviews para empresas de jogos,
-facilitando a pesquisa de 
-mercado delas.
-
+- O sistema será voltado para forças policiais e instituições que mantêm animais de trabalho, como guardas municipais, bombeiros e forças armadas.
+- Nosso valor está em centralizar informações críticas sobre saúde, treinamentos e histórico de serviço dos cães em um ambiente seguro e intuitivo.
+- Fontes de renda a ser planejadas *
+- Licenciamento do sistema para instituições policiais.
+- Expansão do sistema para diferentes tipos de canis.
 
 # Requisitos de Alto Nível:
-- O sistema deve proporcionar uma forma de comunicação segura entre usuários, seguindo as regras da LGPD;
-- O sistema deve reunir informações sobre jogos espalhadas por páginas diferentes na internet, com o intuito de facilitar a busca por informações sobre jogos específicos para usuários;
-- O sistema deve permitir que os usuários possam deixar avaliações sobre os jogos que jogaram, seguindo o modelo de 0-5 estrelas + uma avaliação escrita (opcional);
-- O sistema deve permitir que seus usuários possam adicionar seus amigos em uma lista de amizades, com direito a um “ranking” de avaliações mensal/semanal que irá incentiva-los a avaliar mais jogos;
-- O sistema deve permitir os usuários a terem um avatar personalizável, com direito a “conquistas” obtidas por usar o sistema que darão novas personalizações;
-- O sistema deve ter um “fórum” que permitirá os usuários a organizar, encontrar e planejar equipes para jogos online multiplayer, de forma que possam encontrar novas amizades e interagir com outros usuários;
-- O sistema deve permitir que empresas possam coletar dados sobre jogos que estão na tendência no momento para pesquisas de publico alvo, com a maioria do lucro do sistema sendo anúncios.
+- O sistema deve permitir o cadastro de cada animal (dados gerais, raça, idade, histórico, especialização);
 
+- O sistema deve armazenar e controlar histórico médico (vacinas, consultas, laudos veterinários);
+
+- O sistema deve registrar treinamentos realizados e vincular ao desempenho do animal;
+
+- O sistema deve controlar a dieta do animal, com lembretes e ajustes feitos pelo veterinário;
+
+- O sistema deve permitir o registro de rondas e operações, vinculando animal e parceiro humano;
+
+- O sistema deve oferecer um painel para o comandante com visão geral de todos os animais, status de saúde, prontidão para missões e relatórios gerenciais;
+
+- O sistema deve seguir regras da LGPD, garantindo segurança e privacidade dos dados.
 
 # Tecnologias Usadas: 
-- Angular (HTML)
-- AWS
+- HTML e CSS
 - Javascript
+- Python ou C
+- AWS 
 
 # Integrantes:
-- Desenvolvimento Mobile: Vinicius Holtz (@vHOLTZv) 
-- Backend e Frontend: Caroline Espanha Simão (@mega-swampert)
+- Desenvolvimento Web: Vinicius Holtz (@vHOLTZv) 
+- Backend: Caroline Espanha Simão (@mega-swampert)
+- Frontend: Murilo Garbo (@garbomurilo)
 - Banco de Dados: Matheus Henrique Roque Camargo (@manga135), Gabriel dos Santos Oliveira (@NerialSumber)
-- Murilo Garbo (@garbomurilo)
