@@ -1,18 +1,18 @@
 # K9 Manager
 
-Um sistema web que centraliza e organiza todas as informações do canil da polícia, permitindo gestão eficiente de histórico médico, treinamentos, rondas, alimentação e registros administrativos, substituindo todos os processos em papel.
+Um sistema web que centraliza e organiza todas as informações da cavalaria da polícia, permitindo gestão eficiente de histórico médico, treinamentos, rondas, alimentação e registros administrativos, substituindo todos os processos em papel.
 
 # Principais Dores:
-- Atualmente, o controle do canil é feito em papel e de forma descentralizada, o que gera perda de informações, dificuldades de consulta e possui diversas oportunidades para erros.  
+- Atualmente, o controle da cavalaria é feito em papel e de forma descentralizada, o que gera perda de informações, dificuldades de consulta e possui diversas oportunidades para erros.  
 - A falta de um sistema único dificulta a comunicação entre todas as partes envolvidas, resultando em atrasos nas tomadas de decisão.  
 - Não existe rastreabilidade clara sobre saúde, treinamentos e rondas de cada animal, prejudicando o acompanhamento individualizado. 
 
 # Modelo de Negócios:
 - O sistema será voltado para forças policiais e instituições que mantêm animais de trabalho, como guardas municipais, bombeiros e forças armadas.
-- Nosso valor está em centralizar informações críticas sobre saúde, treinamentos e histórico de serviço dos cães em um ambiente seguro e intuitivo.
+- Nosso valor está em centralizar informações críticas sobre saúde, treinamentos e histórico de serviço dos cavalos em um ambiente seguro e intuitivo.
 - Fontes de renda a ser planejadas *
 - Licenciamento do sistema para instituições policiais.
-- Expansão do sistema para diferentes tipos de canis.
+- Expansão do sistema para diferentes tipos de frotas de animais.
 
 # Requisitos de Alto Nível:
 - O sistema deve permitir o cadastro de cada animal (dados gerais, raça, idade, histórico, especialização);
