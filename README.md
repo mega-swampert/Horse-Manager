@@ -1,4 +1,4 @@
-# K9 Manager
+# Horse Manager
 
 Um sistema web que centraliza e organiza todas as informações da cavalaria da polícia, permitindo gestão eficiente de histórico médico, treinamentos, rondas, alimentação e registros administrativos, substituindo todos os processos em papel.
 
