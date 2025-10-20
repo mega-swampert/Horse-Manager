@@ -5,7 +5,8 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 # Principais Dores:
 - Atualmente, o controle da cavalaria é feito em papel e de forma descentralizada, o que gera perda de informações, dificuldades de consulta e possui diversas oportunidades para erros.  
 - A falta de um sistema único dificulta a comunicação entre todas as partes envolvidas, resultando em atrasos nas tomadas de decisão.  
-- Não existe rastreabilidade clara sobre saúde, treinamentos e rondas de cada animal, prejudicando o acompanhamento individualizado. 
+- Não existe rastreabilidade clara sobre saúde e rondas de cada animal, prejudicando o acompanhamento individualizado.
+- Existe um relatório mensal que deve ser elaborado todo fim de mês pela cavalaria para a sede Estadual, tanto individual como total.
 
 # Modelo de Negócios:
 - O sistema será voltado para forças policiais e instituições que mantêm animais de trabalho, como guardas municipais, bombeiros e forças armadas.
