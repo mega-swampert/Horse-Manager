@@ -7,3 +7,6 @@ nosso para os canis de polícia, mas ainda existia outras oportunidades em difer
 
 # 13/10/2025
  - Mudança oficial do tema de K9 manager para Horse manager, onde se mantém o mesmo intuito, somente para a cavalaria de polícia.
+
+# 20/10/2025
+ - Alinhamento conforme dados adquiridos na entrevista com cliente, estabelecer escopo, necessidades e atualizar kanban
