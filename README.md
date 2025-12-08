@@ -33,8 +33,8 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 # Links
   Vídeo protótipo final
  - https://www.youtube.com/watch?v=Wa1MgwOVmjU
-   
-   Protótipo
+
+  Protótipo
  - https://stable-pulse-pro.lovable.app
 
 # Tecnologias Usadas: 
