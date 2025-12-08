@@ -30,6 +30,10 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 
 - O sistema deve seguir regras da LGPD, garantindo segurança e privacidade dos dados.
 
+# Links
+  Vídeo protótipo final
+ - https://www.youtube.com/watch?v=Wa1MgwOVmjU
+
 # Tecnologias Usadas: 
 - HTML e CSS
 - Javascript
