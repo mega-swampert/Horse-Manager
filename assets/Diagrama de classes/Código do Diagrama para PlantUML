@@ -1,0 +1,227 @@
+@startuml
+' ==============================================
+' SISTEMA HORSE-MANAGER
+' ==============================================
+
+title Diagrama de Classes - Horse Manager
+
+skinparam class {
+  BackgroundColor #F8F9FA
+  BorderColor #2E4053
+  ArrowColor #2E4053
+}
+
+skinparam note {
+  BackgroundColor #FFF3CD
+  BorderColor #856404
+}
+
+' ============== ENUMS/TIPOS ==============
+enum PerfilUsuario {
+  ADMINISTRADOR
+  USUARIO
+}
+
+enum StatusCavalo {
+  DISPONIVEL
+  EM_MISSAO
+  EM_TREINAMENTO
+  EM_TRATAMENTO
+  INDISPONIVEL
+}
+
+enum SexoAnimal {
+  MACHO
+  FEMEA
+}
+
+enum TipoDescricao {
+  MEDICA
+  COMPORTAMENTAL
+  TREINAMENTO
+  ALIMENTACAO
+  OBSERVACAO
+}
+
+enum Prioridade {
+  ALTA
+  MEDIA
+  BAIXA
+}
+
+enum TipoAtendimento {
+  CONSULTA_ROTINA
+  VACINACAO
+  CIRURGIA
+  EMERGENCIA
+  EXAME_LABORATORIAL
+  FISIOTERAPIA
+}
+
+enum TipoRelatorio {
+  DIARIO
+  SEMANAL
+  MENSAL
+  ANUAL
+  EVENTO_ESPECIFICO
+  SAUDE
+  TREINAMENTO
+}
+
+enum TipoTreinamento {
+  ECOTERAPIA
+  RONDA
+  AMBOS
+}
+
+' ============== CLASSES PRINCIPAIS ==============
+
+class Usuario {
+  + id: int
+  + nome: string
+  + email: string
+  + login: string
+  + senha: string
+  + perfil: PerfilUsuario
+  + dataCadastro: Date
+  + ativo: boolean
+  
+  + autenticar(): boolean
+  + alterarSenha(): void
+  + gerarRelatorio(): void
+}
+
+class Cavalo {
+  + id: int
+  + nome: string
+  + apelido: string
+  + registro: string
+  + raca: string
+  + pelagem: string
+  + dataNascimento: Date
+  + sexo: SexoAnimal
+  + status: StatusCavalo
+  + dataEntradaServico: Date
+  + tipoTreinamento: TipoTreinamento
+  + observacoes: string
+  
+  + calcularIdade(): int
+  + verificarDisponibilidade(): boolean
+  + atualizarStatus(): void
+  + definirTipoTreinamento(): void
+}
+
+class Descricao {
+  + id: int
+  + cavaloId: int
+  + tipoDescricao: TipoDescricao
+  + conteudo: string
+  + dataRegistro: Date
+  + usuarioRegistroId: int
+  + prioridade: Prioridade
+  
+  + adicionarAnexo(): void
+  + validarDescricao(): boolean
+}
+
+class AtendimentoVeterinario {
+  + id: int
+  + data: Date
+  + tipoAtendimento: TipoAtendimento
+  + descricao: string
+  + prescricao: string
+  + proximaVisita: Date
+  + veterinarioId: int
+  + cavaloId: int
+  
+  + agendarProximaVisita(): void
+  + emitirReceituario(): void
+  + registrarProcedimento(): void
+}
+
+class Relatorio {
+  + id: int
+  + titulo: string
+  + tipoRelatorio: TipoRelatorio
+  + conteudo: string
+  + dataGeracao: Date
+  + usuarioGeradorId: int
+  + periodoInicio: Date
+  + periodoFim: Date
+  
+  + gerarPDF(): void
+  + exportarParaExcel(): void
+  + enviarPorEmail(): void
+}
+
+class Estoque {
+  + id: int
+  + item: string
+  + categoria: string
+  + quantidade: int
+  + unidadeMedida: string
+  + estoqueMinimo: int
+  + estoqueMaximo: int
+  + localizacao: string
+  + fornecedor: string
+  + dataValidade: Date
+  
+  + verificarDisponibilidade(): boolean
+  + registrarEntrada(): void
+  + registrarSaida(): void
+  + alertaEstoqueBaixo(): void
+}
+
+class Alimentacao {
+  + id: int
+  + cavaloId: int
+  + dieta: string
+  + suplementos: string
+  + horarios: string
+  + restricoes: string
+  + ultimaAvaliacao: Date
+}
+
+class Treinamento {
+  + id: int
+  + cavaloId: int
+  + tipoTreino: string
+  + duracaoMinutos: int
+  + instrutor: string
+  + dataTreino: Date
+  + observacoes: string
+  + nivelDificuldade: string
+}
+
+' ============== RELACIONAMENTOS ==============
+
+Usuario "1" -- "0..*" Cavalo : gerencia
+Cavalo "1" -- "1..*" Descricao : possui >
+Cavalo "1" -- "1..*" AtendimentoVeterinario : recebe >
+Usuario "1" -- "0..*" AtendimentoVeterinario : realiza >
+Cavalo "1" -- "1" Alimentacao : segue >
+Cavalo "1" -- "0..*" Treinamento : participa >
+Usuario "1" -- "0..*" Relatorio : gera >
+Estoque "1" -- "0..*" AtendimentoVeterinario : fornece_itens >
+
+' ============== NOTAS EXPLICATIVAS ==============
+note top of Cavalo
+  <b>TABELA PRINCIPAL DE IDENTIFICAÇÃO</b>
+  Armazena todos os cavalos da frota policial
+  Cada cavalo tem ID único e registro oficial
+end note
+
+note right of Descricao
+  <b>TABELA SEPARADA PARA DESCRIÇÕES</b>
+  Permite múltiplas anotações por cavalo
+  Tipos: médica, comportamental, treino, etc.
+end note
+
+note right of AtendimentoVeterinario
+  <b>REGISTRO VETERINÁRIO COMPLETO</b>
+  Inclui prescrição e agendamento
+  de próximas visitas
+end note
+
+
+@enduml
