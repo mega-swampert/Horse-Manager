@@ -30,6 +30,9 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 
 - O sistema deve seguir regras da LGPD, garantindo segurança e privacidade dos dados.
 
+#Protótipo
+<img src="https://github.com/mega-swampert/Horse-Manager/blob/main/assets/prototipo/Captura%20de%20tela%202025-12-08%20102618.png" alt="Interface principal exibindo métricas em tempo real sobre o efetivo animal, controle de estoque e agendamentos, oferecendo uma visão geral rápida para a tomada de decisão." width="200">
+
 # Links
   Vídeo protótipo final
  - https://www.youtube.com/watch?v=Wa1MgwOVmjU
