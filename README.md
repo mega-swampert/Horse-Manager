@@ -30,6 +30,17 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 
 - O sistema deve seguir regras da LGPD, garantindo segurança e privacidade dos dados.
 
+#Protótipo
+<img src="assets/prototipo/Captura de tela 2025-12-08 102618.png" alt="Interface principal exibindo métricas em tempo real sobre o efetivo animal, controle de estoque e agendamentos, oferecendo uma visão geral rápida para a tomada de decisão." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 102730.png" alt="Tela de gerenciamento de efetivo que apresenta os animais em cartões detalhados, exibindo status de saúde, função e prontidão operacional com indicadores visuais claros." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 102817.png" alt="Painel de controle tático que monitora em tempo real o status de rondas, patrulhas e eventos, vinculando cada animal ao seu oficial responsável e registrando os horários de missão." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 102925.png" alt="Painel de gestão de cuidados que monitora prazos de manutenções essenciais, como ferrageamento e revisões, com alertas visuais automáticos para pendências e tarefas atrasadas." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 103047.png" alt="Painel de atividades que consolida os eventos operacionais em uma linha do tempo detalhada, facilitando a verificação de status e o acompanhamento de pendências administrativas." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 103109.png" alt="Interface principal exibindo métricas em tempo real sobre o efetivo animal, controle de estoque e agendamentos, oferecendo uma visão geral rápida para a tomada de decisão." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 103327.png" alt="Módulo de geração de documentos que consolida informações de todas as áreas, permitindo a exportação rápida de históricos médicos, operacionais e financeiros para fins administrativos." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 103413.png" alt="Painel administrativo que centraliza a gestão de acessos e permissões da equipe, permitindo também ajustar regras globais de segurança e parâmetros operacionais do sistema." width="200">
+<img src="assets/prototipo/Captura de tela 2025-12-08 103523.png" alt="Área pessoal onde o usuário gerencia sua segurança (alteração de senha e e-mail) e personaliza como deseja receber as notificações de alertas do sistema." width="200">
+
 # Links
   Vídeo protótipo final
  - https://www.youtube.com/watch?v=Wa1MgwOVmjU
