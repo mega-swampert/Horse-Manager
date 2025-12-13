@@ -32,6 +32,8 @@ Um sistema web que centraliza e organiza todas as informações da cavalaria da 
 
 # Protótipo:
 
+(Clique nas imagens para abrir o arquivo original no repositório)
+
 Interface principal exibindo métricas em tempo real sobre o efetivo animal, controle de estoque e agendamentos, oferecendo uma visão geral rápida para a tomada de decisão.
 
 <img src="assets/prototipo/Captura de tela 2025-12-08 102618.png" alt="Interface principal exibindo métricas em tempo real sobre o efetivo animal, controle de estoque e agendamentos, oferecendo uma visão geral rápida para a tomada de decisão." width="400">
